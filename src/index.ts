@@ -7,6 +7,9 @@ window.addEventListener('load', async e => {
      const searchParams = new URL(location.href).searchParams;
      canv.width=window.innerWidth;
      canv.height=window.innerHeight;
+
+     //uv=true in querystring to load points from uvs instead of position
+     
      const editor=new AnchorEditor(canv,searchParams.get('uv')=="true");
      
      

@@ -73,6 +73,8 @@ export default class AnchorEditor extends CanvasEditor {
         const points=this.points;
         
         ctx.strokeStyle="silver";
+
+        //ignore the Y component in points since we rendering in 2d and mesh was upside down
         for(let i=0;i<triangulation.length;i+=3){
             ctx.beginPath();
             
