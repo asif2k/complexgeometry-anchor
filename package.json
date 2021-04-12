@@ -1,0 +1,22 @@
+{
+  "name": "complexgeometry-anchor",
+  "version": "0.0.1",
+  "description": "Complex geometry anchor editor",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "webpack --config webpack.config.js -w"
+  },
+  "author": "Asif Ali",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "browser-sync": "^2.26.14",
+    "browser-sync-webpack-plugin": "^2.3.0",
+    "ts-loader": "^8.0.14",
+    "typescript": "latest",
+    "webpack": "^5.20.0",
+    "webpack-cli": "^4.5.0"
+  },
+  "dependencies": {
+    "three": "^0.125.2"
+  }
+}
